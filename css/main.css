@@ -4,15 +4,16 @@ body {
 }
 
 nav {
-    background-color: #4682b4;
+    background-color: #3e6b4a;
     padding: 10px;
     height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 3px solid #efb810;
 }
 
-a {
+header a {
     color: #ffffff;
     text-decoration: none;
     padding-right: 20px;
@@ -23,3 +24,107 @@ a {
     font-size: 20px;
 }
 
+.plane {
+    width: 40px;
+    margin-bottom: -10px;
+    margin-right: -5px;
+}
+
+.intro {
+    background: url(../img/thai.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.intro article {
+    background: rgba(62, 107, 74, .8);
+    padding: 80px 10%;
+    border: 2px solid #3e6b4a;
+    margin: 0 10%;
+}
+
+.intro h1 {
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+.intro h1 span {
+    font-weight: 700;
+}
+
+.intro h2 {
+    color: #f5f5e7;
+    font-weight: 400;
+    margin-bottom: 35px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.intro input {
+    padding: 10px 15px;
+    border-radius: 10px 0 0 10px;
+    border: 2px solid #3e6b4a;
+    width: 50%;
+    font-size: 14px;
+}
+
+.intro a {
+    background: #efb810;
+    padding: 9px 10px 8px;
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: -6px;
+    border: 2px solid #efb810;
+    border-radius: 0 10px 10px 0;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+footer {
+    background: #3e6b4a;
+    border-top: 3px solid #efb810;
+    padding: 30px 10%;
+    color: #ffffff;
+}
+
+.contacto {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.contacto li, .contacto a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contacto i {
+    color: #efb810;
+    margin-right: 5px;
+}
+
+footer h4 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: .5px;
+}
+
+footer h4::before {
+    content: '';
+    width: 70px;
+    height: 3px;
+    background: #efb810;
+    position: absolute;
+    margin-top: 30px;
+}
